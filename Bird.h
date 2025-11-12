@@ -1,11 +1,12 @@
-#ifndef ASSIGNMENT1_MAMMEL_H
-#define ASSIGNMENT1_MAMMEL_H
+
+#ifndef ASSIGNMENT1_BIRD_H
+#define ASSIGNMENT1_BIRD_H
 #include<iostream>
 #include "Animal.h"
 using namespace std;
 
-class Mammel::Animal {
-public:
-    string furColor;
+class Bird::Animal {
+    public:
+    float wingSpan;
 };
-#endif //ASSIGNMENT1_MAMMEL_H
+#endif //ASSIGNMENT1_BIRD_H
