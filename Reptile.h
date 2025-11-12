@@ -1,16 +1,11 @@
-#ifndef REPTILE_H
-#define REPTILE_H
-
+#ifndef ASSIGNMENT1_REPTILE_H
+#define ASSIGNMENT1_REPTILE_H
+#include<iostream>
 #include "Animal.h"
+using namespace std;
 
-//define reptile class here
-
-
-
-
-
-
-
-
-
-#endif
+class Reptile::Animal{
+public:
+    bool isVenomous;
+};
+#endif //ASSIGNMENT1_REPTILE_H
